@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.result {
+    margin-top: 100px;
+    width:90%;
+    overflow:auto;
+}
+.index-main-heading{
+    font-weight:bold;
+    font-family:lobster;
+}
+.uploader-conatiner{
+    border-radius:10px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.index-image{
+    height:300px;
+    width:450px;
+    align-self:center;
+}
+label{
+    font-weight:bold;
+    margin-right:5px;
+}
+.index-translate-button {
+    background-color: transparent;
+    font-weight: bold;
+    border: 3px solid #689D3A;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    color: #689D3A;
+    height:45px;
+    width:135px;
+    padding: 5px;
+}
+
+.index-translate-button:hover {
+    background-image: linear-gradient(to right,#3E9042,#03A9,#26C6DA);
+    color:#ffffff;
+    border:0px;
+}
